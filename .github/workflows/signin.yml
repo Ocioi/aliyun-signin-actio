@@ -13,6 +13,6 @@ jobs:
       - uses: ImYrS/aliyun-auto-signin@main
         with:
           REFRESH_TOKENS: ${{ '41ad3ab6382c42e694eb937baa91b461' }}
-          GP_TOKEN: ${{ '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' }}
+          GP_TOKEN: ${{'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' }}
           PUSH_TYPES: 'PUSHPLUS'
           PUSHPLUS_TOKEN: ${{ '46856314d8f94ddeb651f485ace3f91c' }}
